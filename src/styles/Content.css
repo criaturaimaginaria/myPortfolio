@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-size: 2vw;
+    font-family: 'Roboto','Times New Roman' ;
+}
+
+.assetInfo{
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1d2374;
+    border-radius: 0.45vw;
+}
+.assetInfo__row1{
+    background-color: #1f1d23;
+    color: #fff;
+}
+
+.assetInfo__row2{
+    display: flex;
+    background-color: rgb(33, 188, 19);
+    color: #fff;
+}
+.assetInfo__row2 div{
+    margin-left: 1vw;
+    background-color:rgb(195, 177, 16);
+    color: #3a09ff;
+}
+
+.symbol{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+
+
+
+
+.Assetlist{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0; 
+    margin: 2vw;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    color: #adadaf;
+    /* border-bottom: 1px solid #c6c6c6; */
+  }
+
+  .list .name {
+    flex-basis: 25%;
+  }
+
+  .list .symbol {
+    flex-basis: 30%;
+  }
+
+  .list .amount {
+    flex-basis: 30%;
+  }
+
+  .list .actualPrice {
+    flex-basis: 35%;
+  }
+
+  
+  .list .buyPrice {
+    flex-basis: 30%;
+  }
+
+  .list .PG {
+    flex-basis: 40%;
+  }
+  
+  .list .percent {
+    flex-basis: 20%;
+    text-align: center;
+  }
+  
+  
+
+
+
+.assetsContainer{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+  .assetPrices{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    gap: 2vw;
+    color: #adadaf;
+    margin:4.5vw 6vw 6vw 6vw;
+  }
+
+  .assetPrices__content {
+    margin-top:2vw;
+    /* flex-basis: 50%; */
+  }
+  .assetPrices__content img{
+    display:inline;
+    margin-right:1vw;
+  }
+  .assetPrices__name{
+    display:flex;
+    align-content:center;
+    display:inline;
+  }
+
+  .assetPrices__name{
+    font-size: 2vw;
+  }
+
+  .assetPrices__content p text{
+    font-size: 1vw;
+    margin-left:0.2vw;
+  }
+
+  .assetPrices__price{
+    margin-left:3.5vw;
+    font-size:2vw;
+    display:flex;
+    align-items:center;
+  }
+  .assetPrices__price b{
+    margin-top: auto;
+  }
+  .assetPrices__price p{
+    font-size:1.2vw;
+    display:flex;
+    margin-top: 0.5vw;
+    margin-left:0.3vw;
+  }
+
+.pieChart__button{
+  display:flex;
+  justify-content:center;
+  font-size:1.4vw;
+  color: #b9b9b9;
+  background-color: #64646400;
+  right:0px;
+  margin: 0vw;
+  padding:0.4vw 1.3vw 0.4vw 1.3vw;
+  border:1px solid #a0a0a0;
+  border-radius: 0.6vw;
+  z-index: 0;
+}
+.pieChart__button:hover{
+  opacity:0.8;
+  cursor:pointer;
+}
+
+@media screen and (max-width:450px) {
+  *{
+    font-size: 2.80vw;
+    font-family: 'Roboto','Times New Roman' ;
+}
+
+.symbol{
+  width: 4.2vw;
+  height: 4.2vw;
+}
+
+
+.list .name {
+  flex-basis: 30%;
+}
+
+.list .symbol {
+  flex-basis: 15%;
+}
+
+.list .amount {
+  flex-basis: 27%;
+}
+
+.list .actualPrice {
+  flex-basis: 33%;
+}
+
+.list .buyPrice {
+  flex-basis: 36%;
+}
+
+.list .PG {
+  flex-basis: 20%;
+}
+
+.list .percent {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+
+
+
+
+.assetPrices{
+  width: 65%;
+  color: #adadaf;
+  margin:4.5vw 6vw 6vw 6vw;
+}
+
+.assetPrices__name{
+  font-size: 3.8vw;
+}
+.assetPrices__price{
+  margin-left:5.8vw;
+  font-size: 5vw;
+}
+
+.assetPrices__content {
+  margin-top:2vw;
+  /* flex-basis: 50%; */
+}
+
+.assetPrices__content p text{
+  font-size: 2.4vw;
+  margin-left:0.4vw;
+}
+
+.assetPrices__price b{
+  font-size: 3.8vw;
+}
+
+.assetPrices__price p{
+  font-size:2.5vw;
+  display:flex;
+  margin-top: 0.5vw;
+  margin-left:0.3vw;
+}
+
+.pieChart__button{
+  display:flex;
+  justify-content:center;
+  font-size:2.5vw;
+  color: #b9b9b9;
+  background-color: #64646400;
+  right:0px;
+  margin: 0vw;
+  padding:0.4vw 1.3vw 0.4vw 1.3vw;
+  border:1px solid #a0a0a0;
+  border-radius: 0.9vw;
+  z-index: 0;
+}
+.pieChart__button:hover{
+  opacity:0.8;
+  cursor:pointer;
+  z-index: 0;
+}
+
+}

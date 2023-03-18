@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  /* background: rgb(193, 156, 8); */
+  background: linear-gradient(135deg, 
+  rgba(244,226,156,0) 0%,rgb(73, 37, 71) 100%), 
+  linear-gradient(to right, rgb(14, 64, 80) 0%,rgb(44, 26, 20) 100%);
+}
+

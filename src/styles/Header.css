@@ -1,0 +1,10 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    margin:3vw;
+}
+
+.Header h1{
+    font-size: 4vw;
+    color: #e4e4e4;
+}
